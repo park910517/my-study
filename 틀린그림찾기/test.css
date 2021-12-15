@@ -1,0 +1,87 @@
+body{
+    background-color: rgba(238, 238, 199, 0.747);
+}
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    font-family: 'KOTRAHOPE';
+    text-align: center;
+    font-size: 50px;
+
+}
+#bg{    
+    width: 700px;
+    height: 700px;
+    position: relative;
+    left: 100px;
+    top: 20px;
+    
+}
+
+#bg_1{  /*원본*/
+    width: 700px;
+    height: 700px;
+    position: relative;
+    left: 350px;
+    top: 20px;
+}
+#bl{        /*박쥐 사라짐*/
+    position: absolute;
+    top: 379px;
+    left: 179px;
+}
+
+#bl_1{      /*고양이*/
+    position: absolute;
+    top: 766px;
+    left: 645px;
+}
+
+#bl_2{      /*창문*/
+    position: absolute;
+    top: 647px;
+    left: 517px;
+}  
+#bl_3{      /*모자*/        
+    position: absolute;
+    top: 187px;
+    left: 144px;
+}  
+#bl_4{      /*반달*/
+    position: absolute;
+    top: 319px;
+    left: 543px;
+}  
+#bl_5{      /*파란별*/
+    position: absolute;
+    top: 459px;
+    left: 748px;
+}   
+#bl_6{      /*검은별*/
+    position: absolute;
+    top: 477px;
+    left: 128px;
+}
+#bl_7{      /*리본*/
+    position: absolute;
+    top: 705px;
+    left: 211px;
+}    
+#text{
+    position: absolute;
+    top: 870px;
+    left: 110px;
+    font-family: 'KOTRAHOPE';
+    font-size: 40px;
+}                      
+#count{
+    position: absolute;
+    top: 950px;
+    right: 110px;
+    width: 1600px;
+    height: 100px;
+}
