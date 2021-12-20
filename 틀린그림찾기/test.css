@@ -73,15 +73,16 @@ h1{
 }    
 #text{
     position: absolute;
-    top: 870px;
+    top: 860px;
     left: 110px;
     font-family: 'KOTRAHOPE';
     font-size: 40px;
 }                      
 #count{
     position: absolute;
-    top: 950px;
+    top: 900px;
     right: 110px;
     width: 1600px;
     height: 100px;
 }
+
