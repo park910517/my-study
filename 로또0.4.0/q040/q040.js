@@ -106,7 +106,7 @@ while (true) {    //여섯번째번호
     }
 }
 for (var i = 0; i < Lotto.length; i++) {   //로또 랜덤6숫자
-    Lotto[i] = Math.floor(Math.random() * 45 + 1);
+   
     for (var j = 0; j < Player.length; j++) {
         if (Lotto[i] == Player[j]) {
             count = count + 1;
