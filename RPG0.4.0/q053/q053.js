@@ -9,20 +9,20 @@
 *********************************************************************************************************************************************************************
 */                                   
 
-function Monster(name,maxHp,nowHp,attack){
+function Monster(name,hp,attack){
     this.name = name;
-    this.maxHp = maxHp;
-    this.nowHp = nowHp;
+    this.maxHp = hp;
+    this.nowHp = hp;
     this.attack = attack;
     this.info = function(){
         dw("["+this.name+"(" + this.nowHp + "/" + this.maxHp + ")]");
     }
 }
 
-function Player(name,maxHp,nowHp,attack){
+function Player(name,hp,attack){
     this.name = name;
-    this.maxHp = maxHp;
-    this.nowHp = nowHp;
+    this.maxHp = hp;
+    this.nowHp = hp;
     this.attack = attack;
     this.info = function(){
         dw("["+this.name+"(" + this.nowHp + "/" + this.maxHp + ")]");
@@ -31,11 +31,13 @@ function Player(name,maxHp,nowHp,attack){
 
 dw("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ");
 br();
-var orc = new Monster("오크", 1000, 1000, 700);
+br();
+var orc = new Monster("오크", 1000, 700);
 orc.info();
 dw("VS");
-var elf = new Player("엘프", 1500, 1500, 500);
+var elf = new Player("엘프", 1500, 500);
 elf.info();
+br();
 br();
 dw("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ");
 
@@ -77,17 +79,19 @@ br();
 br();
 dw("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ");
 br();
-dw("1턴 종료")
+dw("턴 종료")
 br();
 dw("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ");
 br();
 br();
 br();
 dw("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ");
+br();
 br();
 orc.info();
 dw("VS");
 elf.info();
+br();
 br();
 dw("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ");
 br();
