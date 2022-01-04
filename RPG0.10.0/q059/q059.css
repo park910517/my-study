@@ -1,0 +1,28 @@
+#screen_Object{
+    border: 2px solid;
+    border-radius: 6px;
+    width: 700px;
+    height: 150px;
+    background-color: rgb(241, 148, 148);
+    }
+
+#screen_Message_Box{
+    border: 2px solid;
+    border-radius: 6px;
+    width: 700px;
+    height: 800px;
+    background-color: rgb(84, 84, 202);
+}
+
+
+#screen_Player_Info{
+    border: 2px solid;
+    border-radius: 6px;
+    width: 700px;
+    height: 50px;
+    background-color: antiquewhite;
+}
+
+#a{
+    width: 700px;
+}
